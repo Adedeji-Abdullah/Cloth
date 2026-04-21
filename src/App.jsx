@@ -6,6 +6,7 @@ import './App.css'
 import Button from './component/Button'
 import Header from './component/Header'
 import Home from './component/Home'
+import About from './component/About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
     <>
       <Header />
       <Home />
+      <About />
     </>
   )
 }

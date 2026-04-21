@@ -9,7 +9,7 @@ const Header = () => {
         setStroke(!stroke)
     }
   return (
-    <section className='sticky'>
+    <section className='fixed w-[100%] z-[50]'>
     <div className='bg-slate-800 flex items-center justify-between px-4 py-2'>
         <h1 className='text-white text-xl font-bold'>Cloth</h1>
         <div className='hidden md:block items-center gap-32'>
