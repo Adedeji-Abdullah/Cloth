@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div id='home' className='h-[110vh] bg-slate-900 bg-cover bg-center pt-10 md:-mt-10 mx-auto'>
+    <div id='home' className='h-[110vh] bg-slate-900 bg-cover bg-center pt-10 mx-auto'>
       <img src="/hero.jpg" className='block mt-10 items-center mx-auto' width={124} height={80} alt="" />
         <h1 className='text-6xl lg:text-7xl font-bold text-white text-center'>Welcome to Our Store</h1>
         <p className='text-3xl lg:font-semibold lg:text-4xl lg:text-slate-600 text-gray-100 text-center pt-14'>Discover the latest textile trends</p>

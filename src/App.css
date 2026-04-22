@@ -188,3 +188,9 @@
      margin-top: -90px;
   }
 }
+
+@media (max-width: 388px) {
+  #Contact{
+     margin-left: 0px;
+  }
+}

@@ -26,7 +26,7 @@ const Header = () => {
         </button>
     </div>
     
-    <div className={`${stroke ? 'block' : 'hidden'} text-center mt-9 md:block items-center gap-32`}>
+    <div className={`${stroke ? 'block' : 'hidden'} bg-white mt-0 text-center mt-9 md:block items-center gap-32`}>
             <a onClick={() => setStroke(false)} href="#home" className={`text-gray-300 hover:text-gray-600 transition-col md:pr-20 lg:pr-32 ${stroke ? 'block py-5' : 'hidden'}`}>Home</a>
             <a onClick={() => setStroke(false)} href="#About" className={`text-gray-300 hover:text-gray-600 transition-col md:pr-20 lg:pr-32 ${stroke ? 'block py-5' : 'hidden'}`}>About</a>
             <a onClick={() => setStroke(false)} href="#contact" className={`text-gray-300 hover:text-gray-600 transition-col md:pr-20 lg:pr-32 ${stroke ? 'block py-5' : 'hidden'}`}>Contact</a>
